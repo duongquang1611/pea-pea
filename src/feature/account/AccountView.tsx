@@ -58,13 +58,13 @@ const AccountView = () => {
             showsVerticalScrollIndicator={false}
             enableResetScrollToCoords={false}
         >
-            <FormProvider {...form}>
+            {/* <FormProvider {...form}>
                 <StyledInputForm name={'username'} label="Username" returnKeyType="next" />
                 <StyledInputForm name={'email'} label="Email" />
                 <StyledInputForm name={'phone'} label="Phone Number" />
                 <StyledInputForm secureTextEntry={true} name={'password'} label="Password" />
                 <StyledInputForm name={'confirmPassword'} label="Confirm Password" secureTextEntry={true} />
-            </FormProvider>
+            </FormProvider> */}
 
             <StyledTouchable
                 onPress={handleSubmit(onSubmit)}
